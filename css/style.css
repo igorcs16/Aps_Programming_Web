@@ -17,16 +17,17 @@ p{
 header{
 	background-color:#35b8b0;
 	height: 11vh;
-	padding:20px;
+	padding:2.15vh;
+	padding-bottom: 0;
 }
 
 footer{
 	clear: both;
 	align-items: center;
 	background-color:#35b8b0;
-	height: 50px;
+	height: 9.1vh;
 	text-align: center;
-	padding: 10px;
+	padding: 1.05vh;
 	font-size:12px;
 	text-shadow:1px 1px 1px #111111;
 }
@@ -45,7 +46,7 @@ h1{
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-position: center;
-	min-height: 63vh;
+	min-height: 67vh;
 	padding:80px 0 0 0;
 }
 
@@ -54,8 +55,8 @@ h1{
 }
 
 #logo img{
-	width: 300px;
-	height: 90px;
+	width: 23.43vw;
+	height: 9.69vh;
 }
 
 #menu{
@@ -64,7 +65,7 @@ h1{
 }
 
 #menu a{
-	padding:52px 20px;
+	padding:5.81vh 1.56vw;
 	text-decoration: none;
 	color:#FFF;
 	/* text-shadow: 2px 2px #111; */
@@ -80,7 +81,6 @@ h1{
 	/* width: 960px; */
 	width: 50vw;
 	margin: 0 auto;
-	
 }
 
 .container span{
@@ -91,6 +91,6 @@ h1{
 .efeito{
 	background-color:rgba(0, 0, 0, 0.9);
 	background-position: center;
-	margin:25px 320px;
-	padding: 20px 10px 60px 15px;
+	margin:5vh 20vw;
+	padding: 2.15vh 0.78vw 6.46vh 1.17vw;
 }
