@@ -1,0 +1,96 @@
+/* Meu primeiro arquivo CSS */
+
+/* TAGS */
+p{
+	color:white;
+	font-size: 15px;
+	font-family: arial, "Times new roman";
+	text-shadow:1px 1px 1px #111111;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, arial;
+}
+
+header{
+	background-color:#35b8b0;
+	height: 11vh;
+	padding:20px;
+}
+
+footer{
+	clear: both;
+	align-items: center;
+	background-color:#35b8b0;
+	height: 50px;
+	text-align: center;
+	padding: 10px;
+	font-size:12px;
+	text-shadow:1px 1px 1px #111111;
+}
+
+h1{
+	color:#FF7F50;
+	text-shadow:1px 1px 1px #111111;
+	text-align: center;
+	margin:0 0 50px 0;
+}
+
+/* IDS */
+#principal{
+	background-image: url('../images/fundo.jpeg');
+	/* background: -webkit-linear-gradient(#FF4500, #228B22); */
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 63vh;
+	padding:80px 0 0 0;
+}
+
+#logo{
+	float:left;
+}
+
+#logo img{
+	width: 300px;
+	height: 90px;
+}
+
+#menu{
+	margin-top:30px;
+	float:right;
+}
+
+#menu a{
+	padding:52px 20px;
+	text-decoration: none;
+	color:#FFF;
+	/* text-shadow: 2px 2px #111; */
+}
+
+#menu a:hover{
+	background-color:#66CDAA;
+	color:#111;
+}
+
+/* class */
+.container{
+	/* width: 960px; */
+	width: 50vw;
+	margin: 0 auto;
+	
+}
+
+.container span{
+	color: white;
+	font-size: 20px;
+}
+
+.efeito{
+	background-color:rgba(0, 0, 0, 0.9);
+	background-position: center;
+	margin:25px 320px;
+	padding: 20px 10px 60px 15px;
+}
