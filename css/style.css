@@ -18,7 +18,7 @@ header{
 	background-color:#35b8b0;
 	height: 11vh;
 	padding:2.15vh;
-	padding-bottom: 0;
+	/* padding-bottom: 0vh; */
 }
 
 footer{
@@ -47,7 +47,7 @@ h1{
 	background-repeat: no-repeat;
 	background-position: center;
 	min-height: 67vh;
-	padding:80px 0 0 0;
+	padding:6.4vh 0 0 0;
 }
 
 #logo{
@@ -60,7 +60,7 @@ h1{
 }
 
 #menu{
-	margin-top:30px;
+	margin-top:4.10vh;
 	float:right;
 }
 
