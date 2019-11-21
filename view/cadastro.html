@@ -1,0 +1,78 @@
+<!Doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        <title>Cadastro</title>
+    </head>
+    <body>
+        <div id="container">
+            <!-- Titulo da Página -->
+            <form method="post" action="../controller/CadastroControler.php">
+                <div class ="row" id="titulo">
+                    <div class="col-3">
+                        <span>Nome</span>
+                    </div>
+                </div>
+
+                <div class ="row" id="nome">
+                    <div class="col-3">
+                        <input type="text" name="nome" placeholder="Digite seu nome completo" required>
+                    </div>
+                </div>
+                <br>
+                <div class ="row">
+                    <div class="col-3">
+                        <span>Data de Nascimento</span>  
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <input type="date" name="nasc" required>
+                    </div>
+                </div>
+                <br>
+                <div class ="row">
+                    <div class="col-1">
+                        <span>Sexo:</span>
+                    </div>
+
+                    <div class ="col-4">
+                        <span>Masculino </span><input type="radio" name="sexo" value="Masculino" required>
+                        <span> Feminino</span> <input type="radio" name="sexo" value="Feminino" required>
+                    </div>
+                </div>
+                <br>
+                <!-- Email -->
+                <div class ="row">
+                    <div class="col-3">
+                        <span>Email</span>
+                    </div>
+                </div>
+                <div class ="row">
+                    <div class="col-3">
+                        <input type="text" name="email" placeholder="Digite seu email"required>
+                    </div>
+                </div>
+
+                <div class ="row">
+                    <div class="col-3">
+                        <span>Senha</span>
+                    </div>
+                </div>
+                <div class ="row">
+                    <div class="col-3">
+                        <input type="password" name="senha" placeholder="Digite sua senha" required>
+                    </div>
+                </div>
+                <br>
+
+                <div class="row botao">
+                    <div class="col-2 botao"><input type="submit" class="btn btn-success  botao" name="cadastrar" value="Enviar"></div>
+                </div>
+            </form>
+        </div>     
+    </body>
+</html>
